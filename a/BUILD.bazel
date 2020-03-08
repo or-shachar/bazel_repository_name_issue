@@ -1,0 +1,4 @@
+load("@a//:txt_files.bzl","txt_files")
+package(default_visibility = ["//visibility:public"])
+
+txt_files(name = "empty")

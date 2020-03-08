@@ -1,0 +1,6 @@
+workspace(name = "b")
+
+local_repository(
+	name = "a",
+	path = "../a"
+)
